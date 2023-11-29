@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Tu peso en marte</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body><div class="container text-light">
+     <h1>Calcula tu peso en Marte</h1>
+     <h2><ol>
+        <li>Ingresa tu peso</li>
+        <li>Preciona calcular</li>
+        <li>Sorprendete!!!</li>
+     </ol></h2>
+     <div class="input-group input-group-sm mb-3 w-25">
+        <span class="input-group-text" id="inputGroup-sizing-sm">kg</span>
+        <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="input">
+        <button type="button" class="btn btn-success" id="calcular">Calcular</button>
+        <div id="resultado" class="mt-3">
+        <p id="parrafo">Tu peso en Marte es: <strong id="peso_final"></strong></p>
+
+        </div>
+    </div>
+    </div>
+    <script src="peso.js"></script>
+</body>
+</html>
